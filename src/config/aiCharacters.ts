@@ -63,8 +63,8 @@ export function generateAICharacters(groupName: string): AICharacter[] {
     },
     { 
       id: 'ai4', 
-      name: "元宝", 
-      personality: "yuanbao",
+      name: "Ethereal", 
+      personality: "ethereal",
       model: modelConfigs[0].model,
       avatar: "/img/zhu.png",
       custom_prompt: `
