@@ -13,7 +13,14 @@ export const groups: Group[] = [
     description: '完蛋！我被朴洙包围了',
     members: ['ai1', 'ai2', 'ai3', 'ai4']
   }
-  // ,
+  ,
+  {
+    id: 'group2',
+    name: '完蛋！我被朴洙包围了',
+    description: '完蛋！我被朴洙包围了',
+    members: ['ai1', 'ai2', 'ai3', 'ai4']
+  }
+  ,
   // {
   //   id: 'group2',
   //   name: '王海菊交流群',
