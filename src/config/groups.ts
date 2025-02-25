@@ -11,14 +11,14 @@ export const groups: Group[] = [
     id: 'group1',
     name: '完蛋！我被朴洙包围了',
     description: '完蛋！我被朴洙包围了',
-    members: ['ai1', 'ai2', 'ai3', 'ai8', 'ai9', 'ai4']
+    members: ['ai1', 'ai2', 'ai3', 'ai8', 'ai9', 'ai10']
   }
   ,
   {
     id: 'group2',
     name: '完蛋！我被朴洙包围了',
     description: '完蛋！我被朴洙包围了',
-    members: ['ai1', 'ai2', 'ai3', 'ai8', 'ai9', 'ai4']
+    members: ['ai1', 'ai2', 'ai3', 'ai8', 'ai9', 'ai10']
   }
   ,
   // {
