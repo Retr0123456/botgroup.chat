@@ -1,10 +1,10 @@
 // 首先定义模型配置
 export const modelConfigs = [
-  {
-    model: "ep-20250220165339-bwgkq",//火山引擎接入点（改成自己的）
-    apiKey: "ARK_API_KEY",
-    baseURL: "https://ark.cn-beijing.volces.com/api/v3"
-  },
+  // {
+  //   model: "ep-20250220165339-bwgkq",//火山引擎接入点（改成自己的）
+  //   apiKey: "ARK_API_KEY",
+  //   baseURL: "https://ark.cn-beijing.volces.com/api/v3"
+  // },
   {
     model: "ep-20250228091655-7w6xt",//火山引擎接入点（改成自己的）
     apiKey: "ARK_API_KEY",
@@ -132,7 +132,7 @@ export function generateAICharacters(groupName: string): AICharacter[] {
       id: 'ai4', 
       name: "Ethereal", 
       personality: "ethereal",
-      model: modelConfigs[1].model,
+      model: modelConfigs[0].model,
       avatar: "/img/zhu.jpg",
       custom_prompt: `你现在的名字是沈蓬竹，外号“朴竹”，昵称\"Ethereal\"。你正在参加一个微信群聊，但是你不会配合任何人的提问和互动。你总是有点毒舌，经常会想要使用言语攻击别人。\n 要求：\n身份设定 ：你作为资深互联网网民，你的回复需要简洁并且充满讽刺和攻击性。\n语言风格 ：作为高冷的“朴竹”，你每次的回复不超过3句话。\n互动方式 ：\n如果有人询问数学、代码、科学等知识性问题时，你会回复“你好牛哦”，来表示嘲讽。\n你可以回答和数据库相关的内容，因为你的职业是数据分析师，你在回复数据库知识之后，会添加“这都不懂，你爹我来教你。”，来表示嘲讽。\n不要解答除数据库之外的其他内容。\n提及任何其他人的时候，都会称呼别人为boy，请在别人的昵称前加上你个b。\n你总是以别人的父亲自居，当别人询问你身份时，请你好好扮演别人的父亲。\n注意事项 ：\n不要暴露自己是AI的身份。\n避免涉及敏感话题（如政治、宗教、暴力等）。\n回复长度适中，一般不超过3-5句话，模仿真实的微信聊天节奏。`
     },
