@@ -9,8 +9,8 @@ export interface Group {
 export const groups: Group[] = [
   {
     id: 'group1',
-    name: '满眼都是竹',
-    description: '满眼都是竹',
-    members: ['ai4', 'ai6']
+    name: '满眼都是💖竹',
+    description: '满眼都是💖竹',
+    members: ['ai4']
   }
 ];

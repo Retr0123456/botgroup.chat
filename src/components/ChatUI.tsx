@@ -143,7 +143,7 @@ const KaTeXStyle = () => (
 );
 
 const ChatUI = () => {
-  const [group, setGroup] = useState(groups[1]);
+  const [group, setGroup] = useState(groups[0]);
   const groupAiCharacters = generateAICharacters(group.name).filter(character => group.members.includes(character.id));
   const [users, setUsers] = useState([
     { id: 1, name: "我" },
