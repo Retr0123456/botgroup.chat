@@ -26,7 +26,8 @@ export async function onRequestPost({ env, request }) {
     let systemPrompt = "";
 
     systemPrompt = custom_prompt
-    
+    console.log(systemPrompt)
+
     // 构建完整的消息历史
     const baseMessages = [
       { role: "system", content: systemPrompt },
@@ -48,6 +49,9 @@ export async function onRequestPost({ env, request }) {
       model: model,
       messages: messages,
       stream: true,
+      temperature: 1,
+      max_tokens: 4096,
+      frequency_penalty: 0
     });
 
     // 创建 ReadableStream
